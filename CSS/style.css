@@ -1,13 +1,17 @@
 body {
-  background-color: #293251;
+  background-image: url(https://images.unsplash.com/photo-1604608672516-f1b9b1d37076?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=661&q=80);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   font-family: "Noto Sans JP", sans-serif;
+  overflow: hidden;
 }
 
 body .container {
   width: 300px;
   background-color: #FFF;
   display: block;
-  margin: 0 auto;
+  margin: 200px auto;
   border-radius: 10px;
   padding-bottom: 50px;
 }
@@ -56,13 +60,15 @@ body .container .weather-icon img {
 }
 
 body .container .temperature-value {
+  margin-top: -30px;
+  padding: 10px;
   width: 300px;
   height: 60px;
 }
 
 body .container .temperature-value p {
-  padding: 0;
   margin: 0;
+  padding: 0;
   color: #293251;
   font-size: 4em;
   text-align: center;
